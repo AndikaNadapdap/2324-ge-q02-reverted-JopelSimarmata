@@ -1,3 +1,0 @@
-bagaimana membuat code dalam bahasa c yang berisi karakter ascii?
-apa fungsi strlen(str) pada bahasa ?
-bagaimana cara memecah input dalam bahasa c?

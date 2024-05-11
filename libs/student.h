@@ -21,5 +21,10 @@ struct student_t
 
 struct student_t create_student(char *_id, char *_name, char *_year,
                                 enum gender_t _gender);
+void print_student_detail(struct student_t student);
+void print_student(struct student_t student);
+void assign_student(struct student_t *students, struct dorm_t *dorm , char *_id, char *_dorm_name, int *p);
+void move_students(struct student_t *students, struct dorm_t *dorm , char *_id, char *_dorm_name);
+void unassgined(struct student_t *students, struct dorm_t *dorm);
 
 #endif
